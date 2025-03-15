@@ -1,0 +1,30 @@
+#root {
+  max-width: 1280px;
+  /* margin: 0 auto; */
+  padding: 2rem;
+  text-align: center;
+}
+
+.board {
+  position: relative;
+  width: 500px;
+  height: 500px;
+  /* display: grid;
+  grid-template-columns: repeat(5, auto); */
+}
+
+.tile {
+  position: absolute;
+  height: 100px;
+  aspect-ratio: 1;
+  border-radius: 10px;
+  margin: 5px;
+  align-content: center;
+  box-shadow: 0 0 4px black inset;
+  text-shadow: 2px 2px black;
+  transition: 2s; /* check back on this */
+}
+
+.d {
+  top: 0
+}
