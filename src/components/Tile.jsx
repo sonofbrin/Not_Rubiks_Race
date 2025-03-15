@@ -18,7 +18,7 @@ export default function Tile({id, row, col, value, handleClick }) {
         left: 110 * col
       }}
       onMouseEnter={() => handleClick(row, col)}
-      onTouchStart={() => handleClick(row, col)}
+      onDragEnter={() => handleClick(row, col)}
     >
       {/* {`
       ${row}
