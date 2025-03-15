@@ -22,7 +22,7 @@
   align-content: center;
   box-shadow: 0 0 4px black inset;
   text-shadow: 2px 2px black;
-  transition: 2s; /* check back on this */
+  transition: .15s; /* check back on this */
 }
 
 .d {
