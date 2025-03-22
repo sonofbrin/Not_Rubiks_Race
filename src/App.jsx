@@ -82,7 +82,7 @@ export default function App() {
       }
     }
     document.addEventListener('keydown', handleKeyDown, true)
-    return () => document.removeEventListener('keydown', handleKeyDown)
+    return () => document.removeEventListener('keydown', handleKeyDown, true)
   }, [])
 
   const slideTilesFromCoordinates = (row, col) => {
